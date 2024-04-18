@@ -3,7 +3,7 @@ import openai
 
 def GetResponse(text):
     try:
-        openai.api_key = "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"
+        openai.api_key = "YOUR OPENAI KEY"
         result = openai.Completion.create(model = "text-davinci-003",
                                           prompt = text,
                                           n = 1,
